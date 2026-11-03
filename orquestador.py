@@ -24,9 +24,9 @@ async def local_llama_call():
 
 async def llamada(numero, semaforo):
     async with semaforo:
-        print(f"Iniciando llamada ${numero}")
+        print(f"Iniciando llamada {numero}")
         await asyncio.sleep(1)
-        print(f"Terminó llamada ${numero}")
+        print(f"Terminó llamada {numero}")
 
 
 async def main():
